@@ -14,27 +14,28 @@ git clone <repourl>— Clones a remote repository to your local machine.
            Changes vs Staged Changes:
 
 
-            *** To push the all in formation in GitHub****
-✅ Prerequisites:
+            *** To push the all in formation in GitHub**** 15/05/2025
+Prerequisites:
 You have Git installed.
 
 You have a GitHub account and a repository created.
 
 Your VS project is not already a Git repository (if it is, skip git init).
 
-📂 1. Navigate to your project folder
+1. Navigate to your project folder
 Open a terminal or Git Bash and run:
-
 cd path/to/your/visual-studio-project
-🔧 2. Initialize a git repository
 
+2. Initialize a git repository
 git init
-📁 3. Add all files
 
+3. Add all files
 git add .
-📝 4. Commit the files
+
+4. Commit the files
 git commit -m "Initial commit"
-🌐 5. Add your GitHub remote URL
+
+ 5. Add your GitHub remote URL
 Go to GitHub, create a new repository (without initializing with README), then copy the repository URL and run:
 
 For HTTPS:
@@ -43,7 +44,7 @@ git remote add origin https://github.com/your-username/your-repo-name.git
 For SSH (if configured):
 
 git remote add origin git@github.com:your-username/your-repo-name.git
-📤 6. Push your code to GitHub
-git branch -M main
-git push -u origin main.
+6. Push your code to GitHub
+git branch -M master.
+git push -u origin master.
 
