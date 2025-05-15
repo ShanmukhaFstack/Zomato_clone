@@ -1,0 +1,49 @@
+Try to understand the following points about GitHub. Add them to your notes:
+Create a new branch every day for your work. Move the newly created files into that branch.
+Before creating a new branch, always check which branch you are creating it from.
+Before committing changes, ensure you are in the correct branch.
+After creating a new project, make sure the master/main branch has at least one file pushed to the repository.
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+git config --global user.password "your_password"   
+
+Initialize and Clonegit init — Initializes Git in your local project.g
+git clone <repourl>— Clones a remote repository to your local machine.
+🔹 Important Concepts
+           Changes vs Staged Changes:
+
+
+            *** To push the all in formation in GitHub****
+✅ Prerequisites:
+You have Git installed.
+
+You have a GitHub account and a repository created.
+
+Your VS project is not already a Git repository (if it is, skip git init).
+
+📂 1. Navigate to your project folder
+Open a terminal or Git Bash and run:
+
+cd path/to/your/visual-studio-project
+🔧 2. Initialize a git repository
+
+git init
+📁 3. Add all files
+
+git add .
+📝 4. Commit the files
+git commit -m "Initial commit"
+🌐 5. Add your GitHub remote URL
+Go to GitHub, create a new repository (without initializing with README), then copy the repository URL and run:
+
+For HTTPS:
+
+git remote add origin https://github.com/your-username/your-repo-name.git
+For SSH (if configured):
+
+git remote add origin git@github.com:your-username/your-repo-name.git
+📤 6. Push your code to GitHub
+git branch -M main
+git push -u origin main.
+
