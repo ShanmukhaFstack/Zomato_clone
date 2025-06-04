@@ -15,12 +15,12 @@ do {
 } while (isNaN(age) || age <= 0);
 console.log("Age is valid");
 // 3.3 Enter numbers until user cancels
-let sum = 0, input;
+let sum2 = 0, input2;
 do {
-  input = prompt("Enter a number:");
-  if (input !== null) sum += Number(input);
-} while (input !== null);
-console.log("Total:", sum);
+  input2 = prompt("Enter a number:");
+  if (input2 !== null) sum2 += Number(input2);
+} while (input2 !== null);
+console.log("Total:", sum2);
 // 3.3 Enter numbers until user cancels
 let sum = 0, input;
 do {
@@ -28,4 +28,5 @@ do {
   if (input !== null) sum += Number(input);
 } while (input !== null);
 console.log("Total:", sum);
+
 
