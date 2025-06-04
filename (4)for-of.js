@@ -27,7 +27,7 @@ for (let letter of sentence) {
   }
 }
 // 4.5 List ingredients
-let ingredients = ["Flour", "Eggs", "Milk"];
+let ingredients = ["Flour", "Eggs", "Milk"," Sugar", "Butter"];
 for (let item of ingredients) {
   console.log(`Add ${item}`);
 }
