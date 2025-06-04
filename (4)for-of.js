@@ -3,7 +3,7 @@
 //   // code block
 // }
 // 4.1 Print each character in a name
-let name = "David";
+let name = "Shanmukha";
 for (let char of name) {
   console.log(char);
 }
@@ -15,7 +15,7 @@ for (let score of scores) {
 }
 console.log("Total:", total);
 // 4.3 Greet every city
-let cities = ["Delhi", "Mumbai", "Pune"];
+let cities = ["Delhi", "Mumbai", "Pune"," Bangalore"," Hyderabad"];
 for (let city of cities) {
   console.log(`Welcome to ${city}`);
 }
@@ -27,7 +27,7 @@ for (let letter of sentence) {
   }
 }
 // 4.5 List ingredients
-let ingredients = ["Flour", "Eggs", "Milk"];
+let ingredients = ["Flour", "Eggs", "Milk"," Sugar", "Butter"];
 for (let item of ingredients) {
   console.log(`Add ${item}`);
 }
